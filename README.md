@@ -49,6 +49,5 @@ docker exec -it idd bash
 psql -U clau -d smart-brain-docker  
 \c smart-brain-docker  
 \l === psql list dbs  
-\c smart-brain-docker  
 \dt === psql list tables  
-SELECT * FROM users 
+SELECT * FROM users;
